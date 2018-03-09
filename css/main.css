@@ -1,0 +1,84 @@
+
+h1
+{
+	font-family: Helvetica, Arial;
+	font-size: 60px;
+	text-align: center;
+}
+
+body
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+svg
+{
+	width: 90%;
+	margin-left: 300px;
+}
+
+#body, #head, #l_x5F_arm, #r_x5F_arm, #l_x5F_leg, #r_x5F_leg
+{
+	opacity: 0;
+	transition: opacity 0.5s ease-in;
+}
+
+.rightGuesses
+{
+  border: 2px solid black;
+  font-size: 20px;
+  text-align: center;
+  margin: 50px auto;
+  height: 100px;
+  width: 480px;
+}
+
+p
+{
+  font-size: 35px;
+  font-family: Helvetica, Arial;
+}
+
+label
+{
+	font-family: Arial;
+	font-size: 30px;
+	margin-left: 360px;
+	margin-right: 350px;
+}
+
+input
+{
+	clear:both;
+	width: 150px;
+	height: 50px;
+	margin-left: 400px;
+	margin-right: 540px;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+i
+{
+	margin-left: 380px;
+}
+
+.show-piece
+{
+	display: block !important;
+	opacity: 1 !important;
+}
+
+.reset-screen
+{
+	display: none;
+	padding-top: 20%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+}
